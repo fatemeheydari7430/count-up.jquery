@@ -1,0 +1,82 @@
+@font-face{
+    font-family:vazir-medium ;
+    src: url("../fonts/Vazir-Medium.eot") format("eot"),
+    url("../fonts/Vazir-Medium.woff") format("woff"),
+    url("../fonts/Vazir-Medium.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  *,
+  body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: vazir-medium;
+  }
+  
+  body{
+      direction: rtl;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul,
+  ol,
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+
+
+
+  body{
+    background-color: #f46a6a;
+    color: #fff;
+    max-width: 800px;
+    margin: 100px auto 0;
+    text-align: center;
+    overflow: hidden;
+  }
+  .course-title{
+      font-weight: bold;
+      font-size: 34px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+  }
+  .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  .wrapper{
+      position: relative;
+      margin: 0 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  .wrapper i{
+      position: absolute;
+      color: #8291ff;
+      z-index: 1;
+      font-size: 54px;
+      top: 36%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .counter{
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-size: 40px;
+      background-color: #fff;
+      width: 200px;
+      border-radius: 3px;
+      height: 200px;
+      position: relative;
+      color: rgb(80, 80, 80);
+  }
